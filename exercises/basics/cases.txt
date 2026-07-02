@@ -1,0 +1,58 @@
+Match Words in the Dictionary...
+There are 413 words that contain "cat" or "dog".
+There are 2236 words that contain 4 letters.
+There are 41 words that contain "hun" in them.
+There are 3702 words that end with "ing".
+There are 1095 words that end with "ion".
+There are 2 words that contain a "q" not immediately followed by a "u".
+There are 41 words that contain no vowels.
+There are 1 words that contain only vowels.
+There are 0 words that end with "'nt".
+There are 14576 words that contain two vowels in a row.
+There are 41628 words that contain at least two vowels.
+
+Match Names...
+Satoshi Nakamoto True
+Alice Nakamoto True
+RoboCop Nakamoto True
+satoshi Nakamoto False
+Mr. Nakamoto False
+Nakamoto False
+Satoshi nakamoto False
+
+Match Numbers...
+twenty True
+twenty-one True
+thirty True
+thirty-two True
+sixty-six True
+eighty-three True
+ninety-nine True
+thirsty False
+thirsty-hungry False
+
+Match Dollar Values...
+$100.00 True
+$10,000.00 True
+$1234 True
+$5000.00 True
+$1,000,000 True
+$1234.567 False
+$50,00.00 False
+$1234,567 False
+$1,234.567 False
+1234 False
+#1234 False
+
+Match Passwords...
+abc False
+ABC False
+123 False
+abcdefgh False
+abcdEFGH False
+12345678 False
+abcd1234 False
+ABCD1234 False
+abCD1234 True
+abCDef123456 True
+a#B#c$1#2#3 True
